@@ -207,3 +207,13 @@ h1,h2,h3{
    justify-content:space-evenly;
    align-items: center;
 }
+
+
+
+
+
+/*Footer*/
+footer p{
+  text-align: center;
+  color: var(--blanco);
+}
