@@ -36,8 +36,9 @@ h1,h2,h3{
     background-color: var(--colorP);
 }
 .contenedor{
-    max-width: 120rem;
+    max-width: 150rem;
     margin: 0 auto;
+    margin-top: 2rem;
 }
 .sombra{
     -webkit-box-shadow: 2px 6px 65px -14px rgba(97,97,97,1);
@@ -178,7 +179,7 @@ h1,h2,h3{
   @media (min-width:768px){
     .servicios{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         column-gap: 1rem;
     }
 }
