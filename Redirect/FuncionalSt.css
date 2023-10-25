@@ -1,12 +1,3 @@
-:root{
-  --colorP:#004225;
-  --colorS:#088660;
-  --Negro:#1C1C1C;
-  --blanco:#ffffff;
-  --gris:#757575;
-
-  --fuenteP:'Raleway', sans-serif;
-}
   :root{
     --colorP:#004225;
     --colorS:#088660;
@@ -25,7 +16,7 @@ html{
 }
 body{
     font-family: var(--fuenteP);
-    font-size: 1.6rem;
+    font-size: 16px;
     background-image: linear-gradient(to top, var(--gris) 0%, var(--blanco) 100%);
 }
 /*Globales*/
@@ -98,7 +89,6 @@ h1,h2,h3{
   color: var(--blanco);
   height: 450px;
   margin-bottom: 2rem;
-
 }
 .contenido-hero{
   position: absolute;
@@ -111,9 +101,7 @@ h1,h2,h3{
   align-items: center;
   justify-content: center;
 }
-.contenido-hero h2,.contenido-hero p{
-  color: var(--blanco);
-}
+
 
 
   /*Main Styles*/
@@ -150,7 +138,7 @@ h1,h2,h3{
     justify-content:space-evenly;
      align-items: center;
 }
-.servicio, .descrip h3{
+.servicio .descrip h3{
   color: var(--colorP);
 }
 
