@@ -1,4 +1,4 @@
-:root{
+  :root{
     --colorP:#004225;
     --colorS:#088660;
     --Negro:#1C1C1C;
@@ -179,9 +179,10 @@ h1,h2,h3{
   @media (min-width:768px){
     .servicios{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         column-gap: 1rem;
     }
+
 }
   .servicio{
     display: flex;
@@ -203,16 +204,95 @@ h1,h2,h3{
     width: 15rem;
     background-color: var(--colorP);
    border-radius: 50%;
-
    display: flex;
    justify-content:space-evenly;
    align-items: center;
 }
+.servicio .Imagen_Funcional img{
+  height: 35rem;
+  width: 55rem;
+  border-radius: 3%;
+  margin-top: 3rem;
+}
+@media (max-width:468px){
+  .servicio .Imagen_Funcional img{
+    height: 30rem;
+    width: 39rem;
+  }
+}
 
-
-
-
-
+.goo{
+  width: 50rem;
+  height: 35rem;
+  border-radius:3%;
+  margin-left: 8rem;
+}
+@media (max-width:768px){
+    .goo{
+      width: 44rem;
+      margin-left: 0rem;
+    }
+}
+@media (max-width:468px){
+    .goo{
+      width: 32rem;   
+    }
+}
+.iconos{
+  display: grid;
+  margin-top: 12rem;
+  grid-template-columns: repeat(3,1fr);
+}
+@media (max-width:768px){
+    .iconos{
+      grid-template-columns: repeat(1,1fr);
+    }
+}
+.icono__insta{
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+.icon-tabler-brand-instagram{
+  margin-left: 12.4rem;
+}
+@media (max-width:768px){
+  .icon-tabler-brand-instagram{
+    margin-left: 12.4rem;
+  }
+}
+@media (max-width:468px){
+  .icon-tabler-brand-instagram{
+    margin-left: 12.9rem;
+  }
+}
+.icono__insta a{
+  text-decoration: none;
+  color:var(--Negro)
+}
+.icono__insta h3{
+  margin-left: 8rem;
+}
+.icono__wpp a{
+text-decoration: none;
+color: var(--Negro);
+}
+.icon-tabler-brand-whatsapp{
+ margin-left: 6.9rem;
+}
+@media (max-width:468px){
+  .icon-tabler-brand-whatsapp{
+    margin-left: 12.8rem;
+   }
+}
+.icon-tabler-mail{
+  margin-left: 6.9rem;
+}
+@media (max-width:468px){
+  .icon-tabler-mail{
+    margin-left: 12.9rem;
+  }
+}
 /*Footer*/
 footer p{
   text-align: center;
