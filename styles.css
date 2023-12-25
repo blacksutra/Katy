@@ -261,8 +261,11 @@ h1,h2,h3{
 text-decoration: none;
 color: var(--Negro);
 }
+.icono__wpp h3{
+  margin: left ;
+}
 .icon-tabler-brand-whatsapp{
- margin: auto 42%;
+ margin: auto 36%;
 }
 /* @media (max-width:468px){
   .icon-tabler-brand-whatsapp{
