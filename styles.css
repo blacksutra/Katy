@@ -251,7 +251,8 @@ th {
 }
 @media (max-width:468px){
     .goo{
-      width: 36rem;   
+      width: 33rem;  
+      margin-left: 0rem; 
     }
 }
 /* Iconos de contacto */
@@ -275,7 +276,6 @@ th {
 }
 @media (max-width:468px){
     .katty_img{
-      
       margin: 0 ;
       padding: 0;
     }
