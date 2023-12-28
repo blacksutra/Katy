@@ -271,13 +271,18 @@ th {
 }
 .katty_img{
   margin:4rem 12rem 0 13rem;
+  border-radius: 3%;
 }
 @media (max-width:468px){
     .katty_img{
+      
       margin: 0 ;
+      padding: 0;
     }
 }
-
+.img__katty{
+  border-radius: 3%;
+}
 
 .icon-tabler-brand-instagram{
   margin: auto 42%;
