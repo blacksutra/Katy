@@ -224,7 +224,7 @@ h1,h2,h3{
 table {
   width: 75%;
   border-collapse: collapse;
-  margin: 10rem 5rem 10rem 4.5rem;
+  margin: 10rem 5rem 3rem 4.5rem;
 }
 
 th, td {
@@ -235,6 +235,10 @@ th, td {
 
 th {
   background-color: #f2f2f2;
+}
+.parr{
+  margin-left: 4.5rem;
+  margin-bottom: 10rem;
 }
 /* api de google maps */
 .goo{
