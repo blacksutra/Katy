@@ -261,13 +261,20 @@ th {
 }
 /* Iconos de contacto */
 .iconos{
-display: flex;
+  display: grid;
   align-items: center;
   margin-top: 12rem;
+  grid-row: 4/6;
+  grid-column:2/3;
+
   gap: 10px;
   margin: 0 5rem 0 4rem;
 }
-
+@media (max-width:768px){
+  .iconos{
+    grid-template-columns: repeat(1,1fr);
+  }
+}
 .katty_img{
   margin:4rem 12rem 0 13rem;
   border-radius: 3%;
@@ -296,7 +303,7 @@ text-decoration: none;
 color: var(--Negro);
 }
 .icono__wpp h3{
-  margin-left:25%;
+  margin: 0 4rem 0 0;
 }
 .icon-tabler-brand-whatsapp{
  margin: auto 40%;
@@ -305,13 +312,14 @@ color: var(--Negro);
     .icon-tabler-brand-whatsapp{
       margin: auto 40%;
     }
+    .icono__wpp h3{
+      margin:0 0 0 3rem;
+    }
 }
 
-.icono__correo h3{
-  margin-left:20% ;
-}
+
 .icon-tabler-mail{
-  margin:auto 50%;
+  margin:auto 40%;
 }
 
 /*Footer*/
